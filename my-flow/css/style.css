@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: burlywood;
 }
 
 .nav {
@@ -34,13 +34,4 @@ li a:hover {
 
 .active {
     background-color: black;
-}
-
-
-/*- puts the nav bar in a sticky fixed position, but messes with the previous stylization to create a weird gap*/
-
-ul.nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
