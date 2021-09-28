@@ -1,0 +1,43 @@
+body {
+    background-color: bisque;
+}
+
+.nav {
+    list-style-type: none;
+    /*removes bullet points and "list" marks*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rosybrown;
+    /*sets the background box*/
+}
+
+ul.nav li {
+    float: left;
+    /*stack from left to right*/
+}
+
+ul.nav li a {
+    display: block;
+    /**/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    /*more padding to text*/
+    text-decoration: none;
+    /*gets rid of underline for links*/
+}
+
+li a:hover {
+    background-color: rgb(224, 217, 210);
+}
+
+.active {
+    background-color: black;
+}
+
+ul.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
