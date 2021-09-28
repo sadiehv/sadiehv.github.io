@@ -5,7 +5,7 @@ body {
 .nav {
     list-style-type: none;
     /*removes bullet points and "list" marks*/
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: rosybrown;
@@ -19,7 +19,7 @@ ul.nav li {
 
 ul.nav li a {
     display: block;
-    /**/
+    /*how to display links*/
     color: white;
     text-align: center;
     padding: 14px 16px;
