@@ -1,5 +1,5 @@
 body {
-    background-color: burlywood;
+    background-color: lavender;
 }
 
 .nav {
@@ -9,7 +9,7 @@ body {
     padding: 0;
     /*what moves the text to the corner*/
     overflow: hidden;
-    background-color: rosybrown;
+    background-color: rgb(158, 169, 221);
     /*sets the background box*/
 }
 
@@ -30,9 +30,9 @@ ul.nav li a {
 }
 
 li a:hover {
-    background-color: rgb(224, 217, 210);
+    background-color: rgb(226, 211, 241);
 }
 
 .active {
-    background-color: black;
+    background-color: rgb(224, 178, 217);
 }
