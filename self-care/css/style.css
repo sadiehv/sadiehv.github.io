@@ -13,6 +13,10 @@ body {
     /*sets the background box*/
 }
 
+#songs {
+    text-decoration: none;
+}
+
 ul.nav li {
     float: left;
     /*stack from left to right, going horizontally*/
