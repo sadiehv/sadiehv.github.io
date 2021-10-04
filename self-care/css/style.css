@@ -13,8 +13,12 @@ body {
     /*sets the background box*/
 }
 
-#songs {
-    text-decoration: none;
+div.songs li a {
+    color: rgb(137, 111, 207);
+}
+
+div.movies li a {
+    color: rgb(216, 151, 210);
 }
 
 ul.nav li {
@@ -39,4 +43,9 @@ li a:hover {
 
 .active {
     background-color: rgb(224, 178, 217);
+}
+
+#intro {
+    text-align: center;
+    border-style: solid;
 }
