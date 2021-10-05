@@ -49,3 +49,17 @@ li a:hover {
     text-align: center;
     border-style: solid;
 }
+
+
+/*the new feature I learned:*/
+
+div.new {
+    width: 100px;
+    height: 150px;
+    background: cornflowerblue;
+    transition: width 2s;
+}
+
+div.new:hover {
+    width: 300px;
+}
