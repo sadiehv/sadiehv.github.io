@@ -1,0 +1,38 @@
+.nav {
+    list-style-type: none;
+    /*removes bullet points and "list" marks*/
+    margin: auto;
+    padding: 0;
+    /*what moves the text to the corner*/
+    overflow: hidden;
+    background-color: #9fbcbe;
+    /*sets the background box*/
+}
+
+ul.nav li {
+    float: left;
+    /*stack from left to right, going horizontally*/
+}
+
+body {
+    background-color: #4769a1;
+}
+
+ul.nav li a {
+    display: block;
+    /*how to display links, so it looks like a block instead of individual text*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    /*more padding to text*/
+    text-decoration: none;
+    /*gets rid of underline for links*/
+}
+
+li a:hover {
+    background-color: #9687c9;
+}
+
+.words {
+    text-decoration: wavy underline black;
+}
