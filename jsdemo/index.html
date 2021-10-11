@@ -21,14 +21,22 @@
     <button onclick="document.getElementById('secret').style.display='none'">Click to hide</button>
     <hr>
     <h3>How do we change images with JS?</h3>
-
-
-
+    <img id="off" src="images/pic_bulboff.gif" alt="lightbulb off">
+    <button onclick="document.getElementById('off').src='images/pic_bulbon.gif'"> Turn on </button>
+    <button onclick="document.getElementById('off').src='images/pic_bulboff.gif'"> Turn off </button>
     <hr>
     <img id="bowl" src="images/bowl.jpg">
-    <img id="soup" src="images/soup.jpg">
-    <button onclick="document.getElementById('bowl').innerHTML=''; document.getElementById('soup').style.display='none'">change the image</button>
+    <button onclick="document.getElementById('bowl').src='images/soup.jpg'">soup full</button>
+    <button onclick="document.getElementById('bowl').src='images/bowl.jpg'">soup empty</button>
+    <hr>
+    <p id="alice">Hi. I am Alice.</p>
 
+    <button type="button" onclick="document.getElementById('alice').style.color ='red';document.getElementById('alice').style.fontSize ='larger'"> Cake: eat me </button>
+    <button type="button" onclick="document.getElementById('alice').style.color ='green'; document.getElementById('alice').style.fontSize ='smaller'">Potion: drink me</button>
+
+    <hr>
+    <p id="new">One last change!</p>
+    <button onclick="document.getElementById('new').style.border ='solid thick black';document.getElementById('new').style.textDecoration ='underline 4px';document.getElementById('new').style.textDecorationColor='purple'"> change the text</button>
 </body>
 
 </html>
