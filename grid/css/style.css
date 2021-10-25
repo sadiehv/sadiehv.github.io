@@ -5,7 +5,7 @@
     padding: 0;
     /*what moves the text to the corner*/
     overflow: hidden;
-    background-color: maroon;
+    background-color: rgb(170, 77, 70);
     /*sets the background box*/
 }
 
@@ -69,13 +69,13 @@ li a:hover {
 .side {
     grid-column: 1;
     grid-row: 4;
-    background-color: maroon;
+    background-color: rgb(170, 77, 70);
 }
 
 .side2 {
     grid-column: 2;
     grid-row: 4;
-    background-color: maroon;
+    background-color: rgb(170, 77, 70);
 }
 
 .sideNav {
