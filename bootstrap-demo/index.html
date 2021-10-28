@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo with Bootstrap</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bg-dark">
+    <div class="container-fluid bg-dark text-white">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"> <img src="images/jup.png" style="width: 40px;"></a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2>welcome to my bootstrap demo</h2>
+        <p>this is my first container.</p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h2>bootstrap is for html.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet mattis nunc. Fusce eu tincidunt orci. Duis venenatis, arcu eu sagittis consequat, massa metus vehicula eros, eu finibus enim velit vel eros. Duis finibus sem eu velit
+                    dictum porttitor. Proin facilisis faucibus ligula, eu dapibus nisl imperdiet eleifend. Etiam justo sapien, aliquam eget porta at, pretium ut purus. Fusce gravida velit ut maximus feugiat. Nullam feugiat mi porta mauris porttitor rhoncus.
+                </p>
+                <a class="btn btn-primary btn-outline-light" role="button" target="_blank" href="https://www.eastsideprep.org/">
+                    eps</a>
+                <br>
+            </div>
+            <div class="col-md-4">
+                <h2>and again</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet mattis nunc. Fusce eu tincidunt orci. Duis venenatis, arcu eu sagittis consequat, massa metus vehicula eros, eu finibus enim velit vel eros. Duis finibus sem eu velit
+                    dictum porttitor. Proin facilisis faucibus ligula, eu dapibus nisl imperdiet eleifend. Etiam justo sapien, aliquam eget porta at, pretium ut purus. Fusce gravida velit ut maximus feugiat. Nullam feugiat mi porta mauris porttitor rhoncus.
+                </p>
+                <a class="btn btn-success btn-outline-light" role="button" target="_blank" href="https://www.eastsideprep.org/">eps</a>
+                <br>
+            </div>
+            <div class="col-md-4">
+                <h2>and again.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet mattis nunc. Fusce eu tincidunt orci. Duis venenatis, arcu eu sagittis consequat, massa metus vehicula eros, eu finibus enim velit vel eros. Duis finibus sem eu velit
+                    dictum porttitor. Proin facilisis faucibus ligula, eu dapibus nisl imperdiet eleifend. Etiam justo sapien, aliquam eget porta at, pretium ut purus. Fusce gravida velit ut maximus feugiat. Nullam feugiat mi porta mauris porttitor rhoncus.
+                </p>
+                <a class="btn btn-danger btn-outline-light" role="button" target="_blank" href="https://www.eastsideprep.org/">eps</a>
+                <br>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-start bg-dark" id="demo">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">Welcome to the sidebar</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>more info coming soon!</p>
+
+            </div>
+        </div>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+    Open my sidebar!
+  </button>
+
+
+    </div>
+
+
+</body>
+
+</html>
