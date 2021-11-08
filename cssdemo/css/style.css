@@ -10,6 +10,9 @@ body {
     overflow: hidden;
     background-color: rosybrown;
     /*sets the background box*/
+    font-family: Korolev Bold Italicfont-family: korolev, sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 ul.nav li {
